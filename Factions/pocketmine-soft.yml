@@ -1,0 +1,41 @@
+﻿# Advanced configuration file for PocketMine-Soft
+
+#Lists the plugins that should be downloaded if non existent to the server.
+#Plugin names are case-sensitive.
+#Plugins can also be in the current filesystem
+plugins:
+ #Examples:
+ #MultiServer: #"https://github.com/flaxues/multiserver"
+ #SimpleAuth: "/full/path/to/file/SimpleAuth.phar"
+
+messages:
+ #Message shown when a player uses a not registered or non-existent command
+ unknown-command: '<error> Unknown command'
+
+ #Message shown by default when a player doesn't have permissions to use a command
+ #Can be overriden by the command
+ command-permissions: "<error> Permission denied"
+
+main:
+ #Block unknown items from creative-mode players
+ filter-creative-items: false
+ 
+ #Shuffle the player list to prevent players from 'gaming' the server, getting high priority on the tick list.
+ #Value is in ticks, so 20 = shuffle each second
+ player-shuffle: false
+
+ #Checks movement of players in survival mode and reverts them if not valid
+ #Creative mode is not affected
+ check-movement: false
+
+ #Checks attacks and block placement to be in this view angle.
+ #360 is all, 0 none. A good value for cheat protection is 90
+ interaction-angle: 360
+
+ #Do entity block collision checks. This includes damage by blocks, falling on water, climbing blocks
+ #Value is in ticks, so 1 = check each tick. If 0, disable collision checks
+ check-block-collision: 20
+
+ #Enables RakLib client/server port checking
+ #Proxied servers might have to disable this option
+ session-port-checking: false

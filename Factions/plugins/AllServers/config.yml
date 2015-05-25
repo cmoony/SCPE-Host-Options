@@ -1,0 +1,19 @@
+## AllServers Config File
+
+
+lobby:
+
+  ip: scpe.game-server.cc
+  port: 19132
+
+
+factions:
+
+  ip: scpe.game-server.cc
+
+  port: 19132
+
+creative:
+
+  ip: scpe.game-server.cc
+  port: 19133
