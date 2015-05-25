@@ -1,0 +1,6 @@
+# Updated 03/31/15 17:51 by PocketMine-Soft 1.4.1-240
+# victim name | ban date | banned by | banned until | reason
+
+jakecraftgamingx|2015-02-14 09:56:54 -0500|iCreepyKid|Forever|Banned by an operator.
+104.162.167.171|2015-02-14 10:02:56 -0500|CONSOLE|Forever|Banned by an operator.
+icelators_subnet|2015-02-16 13:48:21 -0500|CONSOLE|Forever|Banned by an operator.
