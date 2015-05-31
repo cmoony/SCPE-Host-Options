@@ -1,0 +1,18 @@
+---
+prefix: "Broadcaster"
+suffix: "[A]"
+time: 15
+sendmessage-format: "{MESSAGE}"
+datetime-format: "H:i:s"
+broadcast-enabled: true
+messages:
+ - "&8[&eNotice&8] &9Host your own server at &ahost-scpe.tk&9!"
+ - "&8[&eNotice&8] &9Host your own server at &ahost-scpe.tk&9!"
+ - "&8[&eNotice&8] &9Host your own server at &ahost-scpe.tk&9!"
+popup-time: 0.01
+popup-duration: 0.01
+sendpopup-format: "{MESSAGE}"
+popup-broadcast-enabled: true
+popups:
+ - "&6Welcome to &3SCPE-FACTIONS&6!\n&d{TOTALPLAYERS} &e/ &d{MAXPLAYERS} &4Players Online"
+...

@@ -6,8 +6,8 @@ login:
   message: "&ePlease login with &9/login &7<password>"
   disabled: "&cLogin disabled in this server"
   command: "&cUsage: /login <password>"
-  ip-login: "&9You have been logged in by IP"
-  login-success: "&8- &aYou have been logged in!"
+  ip-login: "&8- &9You have been logged in by IP"
+  login-success: "&8- &aYou have been logged in"
   login-timeout: "&cLogin Timeout"
   already-login: "&8- &cYou are already logged in"
 register: 

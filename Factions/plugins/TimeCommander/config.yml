@@ -1,0 +1,13 @@
+# Config file for TimeCommander by LDX;
+
+
+# List of commands for the plugin to execute at the given times;
+
+# Command: Command to execute;
+
+# Time: Amount of time in minutes between command executions;
+
+Commands:
+
+  - Command: sendpopup * &6Welcome to &3SCPE-FACTIONS&6! &d{TOTALPLAYERS} &e/ &d{MAXPLAYERS} &aOnline
+    Time: 0.00001

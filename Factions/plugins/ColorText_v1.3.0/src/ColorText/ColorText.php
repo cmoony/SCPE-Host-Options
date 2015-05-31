@@ -53,7 +53,7 @@ class ColorText extends PluginBase implements Listener{
          if(isset($this->coloredChatPlayers[$players->getName()])){
             $players->sendMessage($this->config["name"]."<".$player->getName().">d ".$this->config["message"].$message);
          }else{
-            $players->sendMessage(TextFormat::DARK_GRAY . "[" . TextFormat::YELLOW . "" . TextFormat::DARK_GRAY . "] " . TextFormat::BLUE . $player->getName() . TextFormat::GREEN . " > " . TextFormat::RED . $message);
+            $players->sendMessage(TextFormat::DARK_GRAY . "[" . TextFormat::YELLOW . "Chat" . TextFormat::DARK_GRAY . "] " . TextFormat::BLUE . $player->getName() . TextFormat::GREEN . " > " . TextFormat::RED . $message);
          }
       }
       $event->setCancelled(true);

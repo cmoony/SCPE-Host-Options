@@ -1,9 +1,9 @@
 ---
-datetime-format: "H:i:s"
+datetime-format: "H:s"
 Motd:
-  update-timeout: false
+  update-timeout: 1
   custom: true
-  message: "&aSCPE &9Creative &n&b[{TOTALPLAYERS}/{MAXPLAYERS}]"
+  message: "&aSCPE &9Factions &r&b[{TOTALPLAYERS}/{MAXPLAYERS}]"
 OutdatedClient:
   custom: true
   message: "&cYour MCPE client is outdated!"
